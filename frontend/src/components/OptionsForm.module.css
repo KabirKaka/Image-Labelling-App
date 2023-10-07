@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:purple !important;
+}
+
+.optionsForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border : 2px dotted white;
+    padding: 5rem;
+    border-radius: 1rem;
+}
+
+.optionsInput{
+    z-index: 100;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    width: 50vw;
+}
+
+
+.btn{
+    padding: 0.8rem;
+    border: none;
+    border-radius:  1rem;
+    margin-top: 10px;
+    cursor: pointer;  
+    background-color: rgb(153, 9, 153);
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(184, 14, 184);
+}
+
+.submitBtn{
+    width: 20vw;
+}
+.submitBtn:disabled{
+    background-color: rgb(109, 94, 109);
+    
+
+}

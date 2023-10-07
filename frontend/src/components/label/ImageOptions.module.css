@@ -1,0 +1,89 @@
+.labelImage-options {
+  max-height: 353px;
+  border-radius: 5px;
+  overflow-y: scroll;
+  padding: 2px;
+}
+
+.labelImage-options::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+.labelImage-options::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: purple; /* Change the color on hover */
+}
+
+.labelImage-options::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(
+    153,
+    13,
+    153
+  ); /* Set the color of the scrollbar thumb */
+}
+
+.labelImage-options::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: white; /* Set the color of the scrollbar track */
+}
+
+.labelImage-options::-webkit-scrollbar-track:hover {
+  background-color: white; /* Change the track color on hover */
+}
+
+.labelImage-options div {
+  border: 1px solid white;
+  border-radius: 14px;
+  padding: 5px;
+  font-size: 17px;
+  width: 30vw;
+  color: white;
+  margin: 2px 0;
+}
+.labelImage-options div input {
+  margin: 0 4px;
+}
+
+.labelImage-options div:hover {
+  background-color: rgb(180, 23, 180);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form h2 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: rgb(153, 13, 153);
+  cursor: pointer;
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  margin: 4px;
+}
+
+.btn:hover {
+  background-color: rgb(180, 23, 180);
+}
+
+.btn:disabled{
+  background-color: rgb(109, 94, 109);
+}
+.errText{
+  color: rgb(255 47 47);
+  margin: 0 2px;
+}
+
+@media (max-width: 970px) {
+  .labelImage-options div {
+    width: 80vw;
+  }
+}
